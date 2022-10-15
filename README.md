@@ -21,7 +21,7 @@
             
             game:GetService("ReplicatedStorage").Assets.Remote.RemoteFunction.Talking:InvokeServer(unpack(args))
     end)
-    AutoFarm:AddToggle("BossSmoker",function()
+    AutoFarm:AddButton("BossSmoker",function()
         local args = {
             [1] = workspace.NPC:FindFirstChild("Quest [Lv.25+]"),
             [2] = workspace.NPC:FindFirstChild("Quest [Lv.25+]"),
